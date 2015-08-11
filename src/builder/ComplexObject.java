@@ -54,7 +54,7 @@ public class ComplexObject {
 		}
 		public ComplexObjectBuilder setName(String name) {
 			this.name = name;
-			return this;
+			return this; //setter qui retourne le builder
 		}
 		public ComplexObjectBuilder setCodeName(String codeName) {
 			this.codeName = codeName;

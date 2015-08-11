@@ -13,7 +13,6 @@ public class Sonic {
 	}
 	
 	public void move() {
-		System.out.println("Que fais-tu pépère ? ");
 		strategy.execute();
 	}
 	
